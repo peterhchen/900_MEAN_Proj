@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Post } from './post.model';
 
 // Only inject in the root level
-@Injectable({provideIn: 'root'})
+@Injectable({providedIn: 'root'})
 export class PostsService  {
   private posts: Post[] = [];
   getPost() {
